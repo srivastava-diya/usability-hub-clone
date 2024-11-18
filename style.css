@@ -171,6 +171,7 @@ header {
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  text-align: center;
 }
 
 .feature-card {
@@ -215,45 +216,41 @@ header {
 
 .example-area {
   justify-content: space-between;
-  margin-block: 30px;
+  margin-block-end: 30px;
 }
 
 .example-card {
   flex-direction: column;
-  width: 23%;
+  width: 24%;
   background-color: black;
   color: white;
-  min-height: 300px;
+  min-height: 350px;
   justify-content: end;
   padding: 25px;
   transition: 0.2s ease-out;
 }
 
 .example-card:hover {
-  box-shadow: 0 0 10px #888;
+  box-shadow: 0 0 10px #989;
 }
 
 .example-card:nth-child(1) {
-  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
-    url(./assets/asset\ 36.jpeg);
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 36.jpeg);
   background-size: cover;
 }
 
 .example-card:nth-child(2) {
-  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
-    url(./assets/asset\ 37.jpeg);
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 37.jpeg);
   background-size: cover;
 }
 
 .example-card:nth-child(3) {
-  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
-    url(./assets/asset\ 38.jpeg);
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 38.jpeg);
   background-size: cover;
 }
 
 .example-card:nth-child(4) {
-  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
-    url(./assets/asset\ 39.jpeg);
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(assets/asset\ 39.jpeg);
   background-size: cover;
 }
 
@@ -272,6 +269,29 @@ header {
 .cta-container p {
   color: white;
   margin-top: 30px;
+}
+
+footer {
+  padding-block: 80px;
+  background-color: #ebf2fa;
+}
+
+.footer-container {
+  align-items: start;
+  justify-content: space-between;
+}
+
+.link-column {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link-column a {
+  color: #183b54;
+}
+
+.link-column a:hover {
+  color: var(--accent-color-dark);
 }
 
 .spacer {
